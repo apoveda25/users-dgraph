@@ -1,0 +1,7 @@
+type Scope {
+  uid: ID
+  name: String
+  description: String
+  created: DateTime
+  updated: DateTime
+}

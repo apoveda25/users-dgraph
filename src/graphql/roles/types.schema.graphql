@@ -1,0 +1,7 @@
+type Rol {
+  uid: ID
+  name: String
+  description: String
+  created: DateTime
+  updated: DateTime
+}

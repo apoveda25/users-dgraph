@@ -19,6 +19,8 @@ app.use(morgan('common'));
 server.applyMiddleware({ app, path: '/graphql' });
 
 const httpServer = createServer(app);
-httpServer.listen({ port: 3000 }, (): void =>
-  console.log(`🚀 GraphQL is now running on http://localhost:3000/graphql`),
+const port = 3000;
+
+httpServer.listen({ port }, (): void =>
+  console.log(`🚀 GraphQL is now running on http://localhost:${port}/graphql`),
 );

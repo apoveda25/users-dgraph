@@ -1,3 +1,3 @@
 type Query {
-  helloRoles: String!
+  getRolById(uid: ID!): Rol
 }

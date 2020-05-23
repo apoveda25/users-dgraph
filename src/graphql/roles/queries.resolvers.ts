@@ -7,6 +7,7 @@ export default {
       uid: '0x2',
       name: 'client',
       description: 'client common',
+      typeRol: 'APPLICATION',
       created: new Date(),
       updated: new Date(),
     };

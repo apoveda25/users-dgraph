@@ -2,6 +2,12 @@ type Rol {
   uid: ID
   name: String
   description: String
+  typeRol: TypeRol
   created: DateTime
   updated: DateTime
+}
+
+enum TypeRol {
+  APPLICATION
+  COMPANIES
 }

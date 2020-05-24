@@ -4,4 +4,5 @@ type Scope {
   description: String
   created: DateTime
   updated: DateTime
+  _hasScopes: Rol!
 }

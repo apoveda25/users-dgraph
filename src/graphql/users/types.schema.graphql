@@ -1,11 +1,13 @@
 type User {
-  uid: ID
+  uid: ID!
   password: Password!
   name: String
   surname: String
   username: String!
   email: EmailAddress!
-  active: Boolean
-  created: DateTime
-  updated: DateTime
+  active: Boolean!
+  created: DateTime!
+  updated: DateTime!
+  hasRolCompanies: Rol!
+  hasRolApplication: Rol!
 }
